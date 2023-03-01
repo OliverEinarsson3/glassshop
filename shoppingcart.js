@@ -20,4 +20,18 @@ if (cartItems) {
 } else {
   console.log("cart-items not found");
 }
+  
+}
+
+
+function clearCart() {
+  cart = []
+  localStorage.clear()
+  console.log("itemscleared")
+
+    
+  const cartItems = document.getElementById('cart-items');
+  while (cartItems.firstChild) {
+    cartItems.removeChild(cartItems.firstChild);
+  }
 }

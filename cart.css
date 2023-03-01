@@ -28,6 +28,15 @@
   width: 50px;
   margin-left: 10px;
 }
+
+#out{
+  margin-top: 0px;
+  margin-left: 500px;
+  background-color: lightgray;
+  font-size: 30px;
+  width: 140px;
+  border-radius: 10px;
+}
   
   
   
